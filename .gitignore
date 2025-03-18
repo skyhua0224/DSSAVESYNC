@@ -1,0 +1,27 @@
+# Project config
+config.json
+
+# Save files
+**/Saves/**
+!**/Saves/.gitkeep
+
+# Log files
+**/sync_log.txt
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Syncthing
+.stfolder/
+.stversions/
